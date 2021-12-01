@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { MainColor, MainSize } from "../../theme/theme";
 import FirstTitle from "../FirstTitle/FirstTitle";
+import Text from "../Text/Text";
 
 const MainWriteTotalContainer = styled.div`
   height: 100%;
@@ -12,7 +13,7 @@ const MainWriteTotalContainer = styled.div`
 const MainWrite = () => {
   return (
     <MainWriteTotalContainer>
-      <FirstTitle />
+      <Text />
     </MainWriteTotalContainer>
   );
 };
